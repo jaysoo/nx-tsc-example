@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@acme/child1": ["libs/child1/src/index.ts"],
+      "@acme/child2": ["libs/child2/src/index.ts"],
+      "@acme/parent": ["libs/parent/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
